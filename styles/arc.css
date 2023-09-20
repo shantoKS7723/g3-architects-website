@@ -202,8 +202,21 @@ main {
     font-size: 4rem;
     margin: 0;
 }
-.ten-years-badge p{
+
+.ten-years-badge p {
     font-size: 1.5rem;
+}
+
+footer p {
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    padding: 40px 0;
+    font-weight: 400;
+    font-size: 20px;
+    
+    justify-content: center;
+    margin: 20px 170px;
 }
 
 /* responsive styles */
@@ -213,20 +226,24 @@ main {
     }
 
     nav,
+    footer p ,
     .features,
     .teams-container,
     .facts-card-container,
     .sponsors-img-container {
         flex-direction: column;
     }
+
     .feature-img img {
         width: 100%;
         margin-left: 0;
     }
+
     .teams-img-container {
         grid-template-columns: 1fr;
     }
-    .ten-years-badge{
+
+    .ten-years-badge {
         position: static;
         max-width: 300px;
     }
@@ -239,6 +256,9 @@ main {
 
     .facts-card-container {
         gap: 20px;
+    }
+    footer p {
+        margin: 20px;
     }
 }
 
